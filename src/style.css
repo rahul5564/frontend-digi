@@ -1,0 +1,66 @@
+
+.comment-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .comment-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 1px #333;
+  }
+  
+  .comment-detail {
+    flex: 1;
+  }
+  
+  .detail-item {
+    margin: 0.7rem 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .comment-actions {
+    margin-left: 10px;
+  }
+  
+  .action-button {
+    padding: 0.6rem 3rem;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  .action-button:hover{
+    background-color: lightblue;
+  }
+  .side{
+    font-size: 20px ;
+    text-align: center;
+    background-color: lightcoral;
+    font-weight: bold;
+    width: 40%;
+  }
+
+  .head{
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  .btn{
+    justify-content: center;
+    display: flex;
+    margin: 2rem 0px;
+  }
